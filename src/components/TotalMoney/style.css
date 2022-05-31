@@ -1,0 +1,30 @@
+.totalMoney{
+    margin-top: 20px;
+    border: 1px solid #E9ECEF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;;
+}
+
+.TotalMoneyResume{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+.totalMoneyTittle{
+    color: #212529;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.totalMoneyAmount{
+    color: #FD377E;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.totalMoneySmall{
+    margin: 0px 10px 5px;
+    align-self: flex-start;
+}

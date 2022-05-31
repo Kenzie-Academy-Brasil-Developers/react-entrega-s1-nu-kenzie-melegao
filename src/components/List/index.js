@@ -15,7 +15,8 @@ function List (props) {
             <div className="lancamentos">
                 <ul>
                     {props.listTransactions.map((elem, index) => 
-                        <li key={index}>
+                        <li key={index} className={elem.type === "Entrada" ? 'liPositive' : 'liNegative'}>
+                            <div className="Card">
                             <div className="lacamentosConteudo-1">
                                 <h3>{elem.description}</h3>
                                 <p>{elem.type}</p>
@@ -27,8 +28,8 @@ function List (props) {
                                         currency: 'BRL',
                                     })}
                                 </p>
-                                {/* <p>R$ {elem.value.toFixed(2).replace('.',',')}</p> */}
                                 <button className="btnTrash" onClick={() => props.handleList(elem)}>🗑️</button>
+                            </div>
                             </div>
                         </li>
                     )}

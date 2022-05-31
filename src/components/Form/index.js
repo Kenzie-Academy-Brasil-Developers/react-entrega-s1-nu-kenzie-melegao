@@ -42,6 +42,7 @@ function Form (props) {
                     name="value"
                     type='number'
                     placeholder="Valor"
+                    min='0'
                     value={value}
                     onChange={(event) => {
                         setValue(event.target.value)

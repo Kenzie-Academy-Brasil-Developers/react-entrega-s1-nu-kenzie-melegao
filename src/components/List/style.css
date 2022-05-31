@@ -32,12 +32,11 @@
     color: #F8F9FA;
 }
 
-
-/* .btnResume button:hover {
+.btnResume button:focus{
     background-color: #FD377E;
     border: 1.4px solid #FD377E;
     color: #FFFFFF;
-} */
+}
 
 .lancamentos {
     width: 100%;
@@ -47,19 +46,45 @@
     padding: 0px;
 }
 
-.lancamentos li {
+li {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    
+}
+
+.liPositive{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #03B898;
+    border-radius: 4px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.liNegative{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #E9ECEF;
+    border-radius: 4px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.Card{
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-items: top;
     background-color: #F8F9FA;
-    border-radius: 4px;
-    width: 98%;
+    border-radius: 0px 0px 4px;
+    width: 97%;
+    height: 100%;
     margin-bottom: 15px;
     padding: 0px 10px;
 }
 
-.lancamentos li:hover{
+.Card:hover{
     background-color: #FFFFFF;
     box-shadow: 0px 4px 42px -12px rgba(0, 0, 0, 0.25);
 }
