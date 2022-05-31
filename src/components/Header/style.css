@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    background: #F8F9FA;
+    box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #FD377E;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+h1 span {
+    color: #212529;
+}
+
+.btnIndex {
+    width: Hug 64px;
+    height: 40px;
+    background-color: #E9ECEF;
+    border: 1.4px solid #E9ECEF;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #5B6166;
+    font-size: 14px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.btnIndex:hover{
+    background-color: #5B6166;
+    color: #FFF;
+}
+

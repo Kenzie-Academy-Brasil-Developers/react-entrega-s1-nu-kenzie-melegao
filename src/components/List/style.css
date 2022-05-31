@@ -1,0 +1,108 @@
+.listHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listHeader h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #212529;
+}
+
+.btnResume {
+    display: flex;
+    gap: 10px;
+}
+
+.btnResume button {
+    padding: 15px;
+    background-color: #E9ECEF;
+    border: 1.4px solid #E9ECEF;
+    border-radius: 8px;
+    color: #5B6166;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btnResume button:hover{
+    background-color: #5B6166;
+    border: 1.4px solid #5B6166;
+    color: #F8F9FA;
+}
+
+
+/* .btnResume button:hover {
+    background-color: #FD377E;
+    border: 1.4px solid #FD377E;
+    color: #FFFFFF;
+} */
+
+.lancamentos {
+    width: 100%;
+}
+
+.lancamentos ul {
+    padding: 0px;
+}
+
+.lancamentos li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: top;
+    background-color: #F8F9FA;
+    border-radius: 4px;
+    width: 98%;
+    margin-bottom: 15px;
+    padding: 0px 10px;
+}
+
+.lancamentos li:hover{
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 42px -12px rgba(0, 0, 0, 0.25);
+}
+
+.lacamentosConteudo-1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.lacamentosConteudo-1 h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.lacamentosConteudo-1 p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.lacamentosConteudo-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.lacamentosConteudo-2 p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.btnTrash{
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    background-color: #E9ECEF;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.btnTrash:hover {
+    background-color: #5B6166;
+}
