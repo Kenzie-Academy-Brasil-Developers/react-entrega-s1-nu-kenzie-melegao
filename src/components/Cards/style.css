@@ -1,0 +1,44 @@
+.emptyTransactions{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.emptyTransactionsTittle{
+    font-size: 22px;
+    font-weight: 700;
+    color: #5B6166;
+}
+
+.emptyCard{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #E9ECEF;
+    width: 100%;
+    height: 100px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.emptyCard-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #F8F9FA;
+    width: 98%;
+    height: 100px;
+}
+
+.emptyCard-3{
+    width: 70%;
+    height: 20px;
+    background-color: #E9ECEF;
+    margin-left: 10px;
+}
+
+.emptyCard-4{
+    width: 20%;
+    height: 20px;
+    background-color: #E9ECEF;
+    margin-left: 10px;
+}
